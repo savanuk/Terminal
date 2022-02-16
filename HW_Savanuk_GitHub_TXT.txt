@@ -32,7 +32,7 @@ Esc :wq
 == cat > skills.txt 
 Enter
 'Ввод данных'
-ctrl+c
+ctrl+c 
  12. Сделать коммит в одну строку. ==
 git commit -am "HW TXT-part"
 Enter
