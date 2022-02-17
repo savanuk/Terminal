@@ -61,13 +61,13 @@ commit new file
 == edit this file
 { 	"bug report":
     {
-        "Number": 1, 
+        "ID": 1, 
         "Summary":"На главном экране при запуске приложения не кликается кнопка 'Start'",
         "Description":"При первом запуске приложения не кликается кнопка 'Start' на главном экране",
         "Steps to reproduse":"Открыть приложение. Нажать кнопку 'Start'",
         "Expected result":"Игра запускается при нажатии на кнопку 'Start' на главном экране", 
         "Actual result":"При нажатии на кнопку 'Start' на главном экране ничего не происходит",
-        "PrintScreen":"Photo File"
+        "Attachments":"Photo File"
     }
 }
  19. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
