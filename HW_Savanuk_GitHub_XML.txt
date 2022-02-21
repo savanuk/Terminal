@@ -1,0 +1,87 @@
+XML
+ 21. Создать внешний репозиторий c названием XML.
+== Create a new repository
+New
+XML
+create a repository
+ 22. Клонировать репозиторий XML на локальный компьютер.
+== code
+copy https://github.com/savanuk/XML.git
+git clone https://github.com/savanuk/XML.git
+ 23. Внутри локального XML создать файл “new.xml”.
+cd XML
+touch new.xml
+ 24. Добавить файл под гит.
+== git add new.xml
+ 25. Закоммитить файл.
+== git commit -m "add xml file"
+ 26. Отправить файл на внешний GitHub репозиторий.
+== git push
+ 27. Отредактировать содержание файла “new.xml” - написать информацию о себе 
+(ФИО, возраст, количество домашних животных, будущая желаемая зарплата). 
+Всё написать в формате XML.
+==
+== vim new.xml
+i
+<note>
+<Full_name>Savanuk Ekaterina Aleksandrovna</Full_name>
+<Age>26</Age>
+<Pets>0</Pets>
+<Salary>Confidentially</Salary>
+</note>
+Esc :wq
+ 28. Отправить изменения на внешний репозиторий.
+== git add new.xml
+git commit -m "update xml file"
+git push
+ 29. Создать файл preferences.xml
+== touch preferences.txt
+ 30. В файл preferences.xml добавить информацию о своих предпочтениях 
+(Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить)
+ в формате XML.
+== vim preferences.xml
+i
+<note>
+<My_favorite_film>Harry Potter</My_favorite_film>
+<My_favorite_series>Supernatural</My_favorite_series>
+<My_favorite_meal>Pizza</My_favorite_meal>
+<Season>Spring</Season>
+<Country>Japanese</Country>
+</note>
+Esc :wq
+ 31. Создать файл skills.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML
+== touch skills.xml
+vim skills.xml
+i
+<info>
+<Skills>Postman, Git, GitHub, SQL, Jmeter, Charles, AndroidStudio, Python, TestCase, CheckList, Bug Reports, Web Testing, Mobile Testing, DevTools</Skills>
+</info>
+Esc :wq
+ 32. Сделать коммит в одну строку.
+== git add .
+git commit -am "add xml files"
+ 33. Отправить сразу 2 файла на внешний репозиторий.
+== git push
+ 34. На веб интерфейсе создать файл bug_report.xml.
+== add file
+create new file
+bug_report.xml
+ 35. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+commit new file
+ 36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
+== open bug_report.xml
+edit this file
+<bug_report>
+<Number>1</Number>
+<Summary>На главном экране при запуске приложения не кликается кнопка Start</Summary>
+<Description>При первом запуске приложения не кликается кнопка Start на главном экране</Description>
+<Steps_to_reproduse>Открыть приложение Нажать кнопку Start</Steps_to_reproduse>
+<Expected_result>Игра запускается при нажатии на кнопку Start на главном экране</Expected_result>
+<Actual_result>При нажатии на кнопку Start на главном экране ничего не происходит</Actual_result>
+<PrintScreen>Photo File</PrintScreen>
+</bug_report>
+ 37. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+==edit bur_report 
+commit changes
+ 38. Синхронизировать внешний и локальный репозиторий XML
+==git pull
